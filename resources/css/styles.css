@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: 'Modak', 'Raleway', 'Roboto_Condensed';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.clearfix{zoom: 1;}
+.clearfix:after{
+   content: '.';
+   clear: both;
+   display: block;
+   height: 0;
+   visibility: hidden; 
+}
+/*HEADER*/
+header{
+    background-image: linear-gradient(rgba(0, 0, 0 ,0.7) , rgba(0, 0, 0, 0.7) ) , url('../img/Background.jpg'); /*pemanggilan background*/
+    height: 100vh; 
+    background-position: center;
+    background-size: cover; 
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    font-size: 240%;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px; 
+    letter-spacing: 1px; 
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #ffff;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 200;
+    word-spacing: 4px;
+    letter-spacing: 0px;
+}
+.nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+.nav li {
+    display: inline-block; 
+    margin-left: 50px;
+}
+.nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase; 
+    padding: 10px 0;
+    transition: border-bottom 0.5s; 
+    border-bottom: 2px solid transparent;
+    font-size: 90%;
+    text-align: center;
+}
+.nav li a:hover{
+  border-bottom: 2px solid #0291dd;
+}
+.back-box{
+    position: absolute; 
+    top: 70%;
+    left: 50%;
+    width: 1140px;
+    transform: translate(-50%, -50%); 
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #828297;
+    margin-right: 20px;
+}
+.btn-full{
+    color: #000000;
+    background-color: #0291dd
+}
+.btn-full:hover{
+    background-color: #828297;
+    transition: 0.3s;
+    border: 1px solid #828297;
+    color: #ffffff;
+}
+.btn-ghost{
+    color: #0291dd;
+}
+.btn-ghost:hover{
+    background-color: #828297;
+    transition: 0.3s;
+    color: #ffffff;
+   
+}
